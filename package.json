@@ -1,0 +1,28 @@
+{
+  "name": "slackapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akinyeleolat/slackapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akinyeleolat/slackapp/issues"
+  },
+  "homepage": "https://github.com/akinyeleolat/slackapp#readme",
+  "dependencies": {
+    "@slack/events-api": "^3.0.0",
+    "@slack/interactive-messages": "^2.0.0",
+    "@slack/web-api": "^6.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}

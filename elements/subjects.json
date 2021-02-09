@@ -1,0 +1,32 @@
+{
+    "text": "What subject would you like to learn more about?",
+    "fallback": "Upgrade your Slack client to use messages like these.",
+    "color": "#3AA3E3",
+    "attachment_type": "default",
+    "callback_id": "subjects",
+    "actions": [
+      {
+        "name": "subject_list",
+        "text": "Select one",
+        "type": "select",
+        "options": [
+          {
+            "text": "React Context API",
+            "value": "react_context"
+          },
+          {
+            "text": "Redux",
+            "value": "redux"
+          },
+          {
+            "text": "Dialog Flow",
+            "value": "dialog_flow"
+          },
+          {
+            "text": "Mongodb",
+            "value": "mongodb"
+          }
+        ]
+      }
+    ]
+  }
